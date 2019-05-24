@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C4CAFAF2297DCB800762859 /* Test123.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4CAFAD2297DCB800762859 /* Test123.h */; };
 		0C4CAFB02297DCB800762859 /* Test123.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4CAFAE2297DCB800762859 /* Test123.m */; };
+		0C4CAFB22297DF1600762859 /* DApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4CAFB12297DF1500762859 /* DApi.framework */; };
 		316F54A89E39BD1AC78E870298A6E7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3B690B3397FCF428BB0C57099F3362C6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8FCB74EB12FA5AB612AAEFA02FF0D /* ReplaceMe.m */; };
 		40C35EC1D471837FCA128CA2498BDD7E /* api-test2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3CF79A6BE0D09BEF710539A68A83DA /* api-test2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +44,7 @@
 		0B155BD50AB42155CD0B37321904D9B0 /* Pods-api-test2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-api-test2_Example-umbrella.h"; sourceTree = "<group>"; };
 		0C4CAFAD2297DCB800762859 /* Test123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test123.h; path = "api-test2/Classes/Test123.h"; sourceTree = "<group>"; };
 		0C4CAFAE2297DCB800762859 /* Test123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test123.m; path = "api-test2/Classes/Test123.m"; sourceTree = "<group>"; };
+		0C4CAFB12297DF1500762859 /* DApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DApi.framework; path = "api-test2/Classes/DApi.framework"; sourceTree = "<group>"; };
 		0F3CF79A6BE0D09BEF710539A68A83DA /* api-test2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "api-test2-umbrella.h"; sourceTree = "<group>"; };
 		1077D336959EE31DB2172EA557DD3BAC /* api-test2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "api-test2.xcconfig"; sourceTree = "<group>"; };
 		110417827F70D3D7DB68B76E1D716890 /* Pods-api-test2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-api-test2_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4CAFB22297DF1600762859 /* DApi.framework in Frameworks */,
 				316F54A89E39BD1AC78E870298A6E7DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +109,7 @@
 		05F18C638E59F9264BBF54905586AF04 /* api-test2 */ = {
 			isa = PBXGroup;
 			children = (
+				0C4CAFB12297DF1500762859 /* DApi.framework */,
 				0C4CAFAD2297DCB800762859 /* Test123.h */,
 				0C4CAFAE2297DCB800762859 /* Test123.m */,
 				81B8FCB74EB12FA5AB612AAEFA02FF0D /* ReplaceMe.m */,
