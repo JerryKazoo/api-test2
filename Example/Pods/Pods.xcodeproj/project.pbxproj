@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C4CAFAF2297DCB800762859 /* Test123.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4CAFAD2297DCB800762859 /* Test123.h */; };
 		0C4CAFB02297DCB800762859 /* Test123.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4CAFAE2297DCB800762859 /* Test123.m */; };
-		0C4CAFB52297E66400762859 /* DApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4CAFB42297E66400762859 /* DApi.framework */; };
 		316F54A89E39BD1AC78E870298A6E7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3B690B3397FCF428BB0C57099F3362C6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8FCB74EB12FA5AB612AAEFA02FF0D /* ReplaceMe.m */; };
 		40C35EC1D471837FCA128CA2498BDD7E /* api-test2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3CF79A6BE0D09BEF710539A68A83DA /* api-test2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42C6C6F0E86A79E93A29CCE03B5D9967 /* api-test2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA16ED6B5B9CF32CFE71E95A6D10D12F /* api-test2-dummy.m */; };
 		63128EF0408E9AD1A8A9A04405EA63B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -44,7 +42,6 @@
 		0B155BD50AB42155CD0B37321904D9B0 /* Pods-api-test2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-api-test2_Example-umbrella.h"; sourceTree = "<group>"; };
 		0C4CAFAD2297DCB800762859 /* Test123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test123.h; path = "api-test2/Classes/Test123.h"; sourceTree = "<group>"; };
 		0C4CAFAE2297DCB800762859 /* Test123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test123.m; path = "api-test2/Classes/Test123.m"; sourceTree = "<group>"; };
-		0C4CAFB42297E66400762859 /* DApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DApi.framework; sourceTree = "<group>"; };
 		0F3CF79A6BE0D09BEF710539A68A83DA /* api-test2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "api-test2-umbrella.h"; sourceTree = "<group>"; };
 		1077D336959EE31DB2172EA557DD3BAC /* api-test2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "api-test2.xcconfig"; sourceTree = "<group>"; };
 		110417827F70D3D7DB68B76E1D716890 /* Pods-api-test2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-api-test2_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 		4EA20D678B2A985C8AFBDF07154E8F7F /* api-test2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "api-test2.modulemap"; sourceTree = "<group>"; };
 		5B56A20823DEBD7856012266FFC630F2 /* Pods-api-test2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-api-test2_Example.modulemap"; sourceTree = "<group>"; };
 		61EF5F4D8ABA341C59DDAA68F61339E7 /* Pods-api-test2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-api-test2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		81B8FCB74EB12FA5AB612AAEFA02FF0D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "api-test2/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
 		94AD2E7EDE49F45FA7E8FBF0F6E28410 /* Pods-api-test2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-api-test2_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E57BDD1474F832ACFCA4B71B8A41B6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -82,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4CAFB52297E66400762859 /* DApi.framework in Frameworks */,
 				316F54A89E39BD1AC78E870298A6E7DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,24 +104,13 @@
 		05F18C638E59F9264BBF54905586AF04 /* api-test2 */ = {
 			isa = PBXGroup;
 			children = (
-				0C4CAFB32297E66400762859 /* Frameworks */,
 				0C4CAFAD2297DCB800762859 /* Test123.h */,
 				0C4CAFAE2297DCB800762859 /* Test123.m */,
-				81B8FCB74EB12FA5AB612AAEFA02FF0D /* ReplaceMe.m */,
 				94F03BD0C64B717B03BF5029194768AA /* Pod */,
 				47D9AA2D20619DAD4F58D31D0EBB3335 /* Support Files */,
 			);
 			name = "api-test2";
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		0C4CAFB32297E66400762859 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0C4CAFB42297E66400762859 /* DApi.framework */,
-			);
-			name = Frameworks;
-			path = "api-test2/Classes/Frameworks";
 			sourceTree = "<group>";
 		};
 		2B204625456F8584028633801883AFA0 /* Development Pods */ = {
@@ -402,7 +386,6 @@
 			files = (
 				0C4CAFB02297DCB800762859 /* Test123.m in Sources */,
 				42C6C6F0E86A79E93A29CCE03B5D9967 /* api-test2-dummy.m in Sources */,
-				3B690B3397FCF428BB0C57099F3362C6 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
